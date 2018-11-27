@@ -3,6 +3,10 @@
     "displayName": "Skill",
     "description": "Skill dark theme",
     "publisher": "metamorphosis",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/frontendmonster/vscode-skill-theme.git"
+    },
     "version": "0.1.0",
     "engines": {
         "vscode": "^1.29.0"
