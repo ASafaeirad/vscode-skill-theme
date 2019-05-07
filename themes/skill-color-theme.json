@@ -90,10 +90,14 @@
 		"list.focusBackground": "#00000033",
 		"list.hoverBackground": "#00000022",
 
-		"gitDecoration.modifiedResourceForeground": "#e2a383",
-		"gitDecoration.untrackedResourceForeground": "#2b9ea3",
-		"editorGutter.modifiedBackground": "#e2a383",
-		"editorGutter.addedBackground": "#2b9ea3",
+		// "editorWarning.border": "#ff0000",
+		"editorWarning.foreground": "#e2a383",
+		"list.warningForeground": "#e2a383",
+
+		"gitDecoration.modifiedResourceForeground": "#2DCED0",
+		"gitDecoration.untrackedResourceForeground": "#63d492",
+		"editorGutter.modifiedBackground": "#2DCED0",
+		"editorGutter.addedBackground": "#63d492",
 		"editorGutter.deletedBackground": "#eb5151",
 
 		"terminal.foreground": "#CDD2E9",
@@ -118,12 +122,6 @@
 		"terminalCursor.foreground": "#CDD2E9"
 	},
 	"tokenColors": [
-		{
-			"settings": {
-				"foreground": "#f8f8f2ff",
-				"background": "#272822ff"
-			}
-		},
 		{
 			"name": "Comment",
 			"scope": "comment",
@@ -262,7 +260,7 @@
 			"name": "Tag name",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#00eeff"
+				"foreground": "#f35d67"
 			}
 		},
 		{
@@ -270,7 +268,14 @@
 			"scope": "entity.other.attribute-name",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#A6E22E"
+				"foreground": "#00eeff"
+			}
+		},
+		{
+			"name": "ID CSS Selector",
+			"scope": "entity.other.attribute-name.id.css",
+			"settings": {
+				"foreground": "#ffe868"
 			}
 		},
 		{
@@ -314,7 +319,6 @@
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {
-				"background": "#00eeff",
 				"fontStyle": "",
 				"foreground": "#F8F8F0"
 			}
@@ -323,7 +327,6 @@
 			"name": "Invalid deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
-				"background": "#BE86E3",
 				"foreground": "#F8F8F0"
 			}
 		},

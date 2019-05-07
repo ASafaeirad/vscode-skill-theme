@@ -1,26 +1,31 @@
 {
-    "name": "skill",
-    "displayName": "Skill",
-    "description": "Skill dark theme",
-    "publisher": "metamorphosis",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/frontendmonster/vscode-skill-theme.git"
-    },
-    "version": "0.2.1",
-    "engines": {
-        "vscode": "^1.28.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "skill",
-                "uiTheme": "vs-dark",
-                "path": "./themes/skill-color-theme.json"
-            }
-        ]
-    }
+	"name": "skill",
+	"displayName": "Skill",
+	"description": "Skill dark theme",
+	"publisher": "metamorphosis",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/frontendmonster/vscode-skill-theme.git"
+	},
+	"version": "0.2.1",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "skill",
+				"uiTheme": "vs-dark",
+				"path": "./themes/skill-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "7ef7dfa6-ae94-4471-ab07-b5b3102d6cb9",
+		"publisherDisplayName": "metamorphosis",
+		"publisherId": "ea136e38-97b1-4f20-be40-8432e037cc3f"
+	}
 }
