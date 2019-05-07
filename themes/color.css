@@ -1,11 +1,11 @@
 /* 242a36; 293340; */
 :root {
 		--black: #293340;
-		--red: #f35d67;
+		--red: #fe8183;
 		--green: #61ba86;
-		--yellow: #ffe868;
+		--yellow: #fad185;
 		--blue: #4cb2ff;
-		--magenta: #be86e3;
+		--magenta: #eaa1f8;
 		--cyan: #2dced0;
 		--white: #cdd2e9;
 		--lightblack: #546386;
@@ -14,6 +14,6 @@
 		--lightyellow: #ffb68e;
 		--lightblue: #4cb2ff;
 		--lightmagenta: #be86e3;
-		--lightcyan: #2dced0;
+		--lightcyan: #00eeff;
 		/* 74f6ff */
   }

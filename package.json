@@ -7,9 +7,9 @@
 		"type": "git",
 		"url": "https://github.com/frontendmonster/vscode-skill-theme.git"
 	},
-	"version": "0.2.1",
+	"version": "0.3.0",
 	"engines": {
-		"vscode": "^1.28.0"
+		"vscode": "^1.33.0"
 	},
 	"categories": [
 		"Themes"
