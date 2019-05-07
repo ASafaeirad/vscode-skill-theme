@@ -202,6 +202,14 @@
 			}
 		},
 		{
+			"name": "Keyword",
+			"scope": "keyword.operator",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#ffffff"
+			}
+		},
+		{
 			"name": "Storage",
 			"scope": "storage",
 			"settings": {
