@@ -20,6 +20,11 @@
 				"label": "skill",
 				"uiTheme": "vs-dark",
 				"path": "./themes/skill-color-theme.json"
+			},
+			{
+				"label": "skill-darker",
+				"uiTheme": "vs-dark",
+				"path": "./themes/skill-color-theme-darker.json"
 			}
 		]
 	},
